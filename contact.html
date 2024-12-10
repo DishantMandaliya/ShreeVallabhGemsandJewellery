@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <!-- Basic -->
@@ -15,7 +15,8 @@
   <title>SVGJ</title>
 
   <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -41,7 +42,8 @@
               SVGJ
             </span>
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -74,7 +76,7 @@
                 </div>
               </a>
               <form class="form-inline">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">hello</button>
               </form>
             </div> -->
           </div>
@@ -90,18 +92,114 @@
     <div class="design-box">
       <img src="images/design-2.png" alt="">
     </div>
-    <div class="container ">
-      <div class="">
-        <h2 class="">
-          Contact Us
-        </h2>
-      </div>
-
-    </div>
     <div class="container">
+      <div class="">
+        <h3 class="mt-2 mb-4">
+          Contact Us
+        </h3>
+      </div>
+      <div class="container mt-2">
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="card mb-3 equal-height-card">
+              <div class="card-body d-flex align-items-center">
+                <div class="icon mr-3">
+                  <i class="pe-7s-map"></i>
+                </div>
+                <div class="content">
+                  <h5 class="card-title">Address</h5>
+                  <p class="card-text">
+                    Shop-2, OmkarVilla APT.,
+                    Deputy Street,
+                    Near Subhash Chowk
+                    Gopipura Main Road<br>
+                    Surat - 395009
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-3 equal-height-card">
+              <div class="card-body d-flex align-items-center">
+                <div class="icon mr-3">
+                  <i class="pe-7s-clock"></i>
+                </div>
+                <div class="content">
+                  <h5 class="card-title">Business Hours</h5>
+                  <p class="card-text">
+                    <!-- <label>Mon-Sat:</label> 10AM to 8PM<br>
+                    <label>Sun:</label> 10AM to 6PM -->
+                  <table cellpadding="4" cellspacing="4" style="border-collapse: separate;">
+                    <tr>
+                      <td>Mon-Sat</td>
+                      <td>:</td>
+                      <td>10AM to 8PM</td>
+                    </tr>
+                    <tr>
+                      <td>Sun</td>
+                      <td>:</td>
+                      <td>10AM to 6PM</td>
+                    </tr>
+                  </table>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-3 equal-height-card">
+              <div class="card-body d-flex align-items-center">
+                <div class="icon mr-3">
+                  <i class="pe-7s-mail-open"></i>
+                </div>
+                <div class="content">
+                  <h5 class="card-title">Contact</h5>
+                  <p class="card-text">
+                  <table cellpadding="4" cellspacing="4" style="border-collapse: separate;">
+                    <tr>
+                      <td>Phone</td>
+                      <td>:</td>
+                      <td>
+                        <a href="tel:+91989800585871" style="color: #007bff; text-decoration: none;">
+                          +91 9898 00585871
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Email</td>
+                      <td>:</td>
+                      <td>
+                        <a href="mailto:atmandaliya@gmail.com" style="color: #007bff; text-decoration: none;">
+                          atmandaliya@gmail.com
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <!-- <label>Phone:</label> <a href="tel:+91989800585871">+91 9898 00585871</a><br>
+                  <label>Email:</label> <a href="mailto:atmandaliya@gmail.com">atmandaliya@gmail.com</a> -->
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Get in touch section Starts -->
+    <div class="container">
+      <h3 class="mt-4 mb-4">
+        Get in Touch
+      </h3>
       <div class="row">
         <div class="col-md-6">
-          <form action="">
+          <form name="contact" netlify>
             <div>
               <input type="text" placeholder="Name" />
             </div>
@@ -115,7 +213,7 @@
               <input type="text" class="message-box" placeholder="Message" />
             </div>
             <div class="d-flex ">
-              <button>
+              <button type="submit">
                 SEND
               </button>
             </div>
@@ -124,12 +222,17 @@
         <div class="col-md-6">
           <div class="map_container">
             <div class="map-responsive">
-              <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
+              <!-- Added location iframe as requested -->
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.9788134751925!2d72.82338817502365!3d21.193000580497866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fa7fdcd91f5%3A0xe87bf26d6f95bb0c!2sSHREE%20VALLABH%20ORNAMENTS!5e0!3m2!1sen!2sin!4v1733671769590!5m2!1sen!2sin"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Get In Touch Section Ends -->
   </section>
 
   <!-- end contact section -->
@@ -151,71 +254,58 @@
           </div>
           <div class="col-md-3">
             <div class="info_contact">
-              <a href="">
-                <img src="images/location.png" alt="">
-                <span>
-                  Address
-                </span>
+              <a href="#">
+                <div class="row">
+                  <img src="images/location.png" height="20px" alt="">
+                  <p class="card-text col-10">
+                    Shop-2, OmkarVilla APT.<br> Deputy Street,<br>Near Subhash Chowk <br>
+                    Gopipura Main Road <br> Surat - 395009
+                  </p>
+                </div>
               </a>
             </div>
           </div>
+
           <div class="col-md-3">
             <div class="info_contact">
-              <a href="">
+              <a href="tel:+919898005871">
                 <img src="images/phone.png" alt="">
-                <span>
-                  +01 1234567890
-                </span>
+                <span>+91 98980 05871</span>
               </a>
             </div>
           </div>
+
           <div class="col-md-3">
             <div class="info_contact">
-              <a href="">
+              <a href="mailto:atmandaliya@gmail.com">
                 <img src="images/mail.png" alt="">
-                <span>
-                  demo@gmail.com
-                </span>
+                <span>atmandaliya@gmail.com</span>
               </a>
             </div>
           </div>
+
         </div>
         <div class="info_form">
-          <div class="d-flex justify-content-center">
-            <h5 class="info_heading">
-              Newsletter
-            </h5>
-          </div>
-          <form action="">
-            <div class="email_box">
-              <label for="email2">Enter Your Email</label>
-              <input type="text" id="email2">
-            </div>
-            <div>
-              <button>
-                subscribe
-              </button>
-            </div>
-          </form>
-        </div>
-        <div class="info_social">
           <div class="d-flex justify-content-center">
             <h5 class="info_heading">
               Follow Us
             </h5>
           </div>
-          <div class="social_box">
-            <a href="">
-              <img src="images/fb.png" alt="">
+          <div class="social_box d-flex justify-content-center mt-4">
+            <div>
+              <a href="https://www.facebook.com/Shreevallabhornaments" target="_blank"
+                style="margin: 0px 15px 10px 0px;">
+                <img src="images/fb.png" alt="Facebook">
+              </a>
+            </div>
             </a>
-            <a href="">
-              <img src="images/twitter.png" alt="">
+            <a href="https://shreevallabhorna.simdif.com/shree_vallabh_ornaments.html" target="_blank"
+              style="margin: 0px 15px 10px 5px;">
+              <img src="images/linkedin.png" alt="Website">
             </a>
-            <a href="">
-              <img src="images/linkedin.png" alt="">
-            </a>
-            <a href="">
-              <img src="images/insta.png" alt="">
+            <a href="https://www.instagram.com/shree_vallabh_ornaments/" target="_blank"
+              style="margin: 0px 15px 10px 5px;">
+              <img src="images/insta.png" alt="Instagram">
             </a>
           </div>
         </div>
@@ -228,8 +318,7 @@
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
-      &copy; <span id="displayYear"></span> All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
+      &copy; <span id="displayYear"></span> All Rights Reserved
     </p>
   </section>
   <!-- footer section -->
